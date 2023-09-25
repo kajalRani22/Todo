@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-image: url(./backgroundImage.avif);
+    background-repeat: no-repeat;
+    z-index:-1;
+    min-width:fit-content;
+    background-size:auto;
+    color:white;
+    background-size:cover;
+    font-family: 'Kalam',serif;
+}
+.container-fluid{
+    background-color: rgba(0, 0,0,0.3);
+    height:100%;
+    max-height: fit-content;
+    background-size: cover;
+    display: flex;
+    
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:36rem; 
+   
+}
+.innerChild1:hover{
+    height:78%;
+    width:76%;
+    border: 1px solid rgba(255,255,255,0.3);
+    z-index:1;
+    text-align: center;
+    
+}
+ .innerChild1{
+    background: rgba(255,255,255,0.2);
+   -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.1);
+    z-index:1;
+    height:75%;
+    width:70%;
+    border-radius:20px;
+    text-align: center;
+    overflow-y:auto;
+}  
+.innerChild1 h1{
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 10px;
+    color:white;
+    text-shadow: 3px 3px rgb(17, 70, 245);
+    padding:2%;
+}
+.subInnerChild form input[type="text"]{
+    width:40%;
+    display:inline;
+    background-color: rgb(0, 242, 250);
+    color:black;
+}
+.subInnerChild{
+    align-items: center;
+    text-align: center;
+    height:60px;
+   
+    padding:10px;
+}
+.subInnerChild form input[type="text"]:focus{
+/* box-shadow: 10px 4px 10px  rgb(61, 235, 8);*/
+   border:3px solid rgb(14, 253, 253);
+   font-weight:900;
+   font-size:18px;
+   background-color: rgb(252, 251, 251);
+}
+.innerChild1 ul{
+   
+    height:50px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px;
+}
+li input[type= "checkbox"]{
+    float:left;
+    color:red;
+}
+h2{
+  
+    text-align:center;
+    padding:0.5%;
+    margin-bottom:-3%;
+    font-size:60px;
+    font-weight: 900;
+    color:black;
+    text-shadow: 3px 3px rgb(0, 255, 204);
+}
+li{
+    list-style: none;
+    height:40px;
+    padding-top:0.8%;
+    border-radius:10px;
+    background-color: rgba(149, 149, 149, 0.662);
+    margin-top:10px;
+}
+ p{
+   display: inline;
+   width:70%;
+   text-align: left;
+   float:left;
+   margin-left: 15px;
+}
+li:hover{
+    background-color: rgba(13, 13, 13, 0.662); 
+}
+.modal {
+    color:black;
+}
